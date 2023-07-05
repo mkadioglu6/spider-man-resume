@@ -1,0 +1,40 @@
+#head {
+background: linear-gradient(300deg, #00bfff, #0b4791, #070056);
+background-size: 180% 180%;
+animation: gradient-animation 18s ease infinite;
+}
+.header {
+    display: flex
+}
+h1 {
+    justify-content: center;
+    align-items: center;
+}
+.my-project {
+    padding-left: 15rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.profile-img {
+    border-radius: 50%;
+}
+h2 {
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+}
+.yeteneklerim {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+.items {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Martel Sans', sans-serif;
+}
